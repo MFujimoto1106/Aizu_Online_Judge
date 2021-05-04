@@ -18,7 +18,7 @@ def maxheapify(A, i):
 
 
 def buildMaxHeap(A):
-    for i in reversed(range(0, int(len(A) / 2))):
+    for i in reversed(range(0, int(H / 2))):
         maxheapify(A, i)
     return A
 
